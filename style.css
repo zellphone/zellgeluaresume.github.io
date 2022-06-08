@@ -1,0 +1,113 @@
+* {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+/*body {
+    min-width: 500px;
+}*/
+
+div {
+  border-radius: 5px;
+}
+
+.stuff h1 {
+  font-family: Impact;
+  text-align: center;
+}
+
+.stuff h3 {
+  font-family: Impact;
+  text-align: center;
+}
+
+#header {
+  height: 40px;
+  width: 100%;
+  background-color: #03ac13;
+  position: fixed;
+}
+
+#title {
+  margin-left: 3%;
+}
+
+#footer {
+  height: 40px;
+  width: 100%;
+  background-color: #03ac13;
+  clear: both;
+  position: relative;
+}
+
+.left {
+  height: 1000px;
+  width: 45px;
+  background-color: #82eefd;
+  float: left;
+  position: fixed;
+}
+
+.right {
+  height: 1000px;
+  width: 45px;
+  background-color: #82eefd;
+  float: right;
+  position: inherit;
+}
+
+img {
+ max-width: 50%;
+ max-height: 50%;
+ border: 5px solid #0A1172;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+  height: 1000px;
+}
+
+p {
+  font-family: Cooper Black;
+}
+
+li {
+  font-family: Lucida Calligraphy;
+}
+
+.head {
+  font-size: 20px;
+}
+
+#name {
+  font-family: Ravie;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 430px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .stuff {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
